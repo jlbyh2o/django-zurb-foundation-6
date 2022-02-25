@@ -1,4 +1,4 @@
-{% load staticfiles %}
+{% load static %}
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
@@ -11,7 +11,6 @@
 
     {# Base Foundation CSS #}
     {% block foundation_css %}
-    <link href="{% static "foundation/css/foundation.css" %}" rel="stylesheet"/>
     <link href="{% static "foundation/css/foundation.min.css" %}" rel="stylesheet"/>
     {% endblock foundation_css %}  
     
@@ -30,13 +29,14 @@
     <script src="{% static "foundation/js/vendor/jquery.js" %}"></script>
     {% endblock foundation_jquery %}
 
+    {# Foundation What Input #}
     {% block foundation_what_input %}
     <script src="{% static "foundation/js/vendor/what-input.js" %}"></script>
     {% endblock foundation_what_input %}
 
     {# Foundation JS #}
     {% block foundation_js %}
-    <script src="{% static "foundation/js/foundation.min.js" %}"></script>
+    <script src="{% static "foundation/js/vendor/foundation.min.js" %}"></script>
     {% endblock foundation_js %}
 
     {# Custom JS #}
