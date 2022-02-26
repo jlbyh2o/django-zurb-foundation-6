@@ -5,6 +5,13 @@ Django Zurb Foundation 6 package for Django 4.
 
 Version of this package is equal to the version of Zurb Foundation it provides.
 
+Installation
+============
+**Install with pip:**
+```sh
+pip install --upgrade django-zurb-foundation-6
+```
+
 Usage
 =====
 
