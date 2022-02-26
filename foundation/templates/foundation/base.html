@@ -13,6 +13,11 @@
     {% block foundation_css %}
     <link href="{% static "foundation/css/foundation.min.css" %}" rel="stylesheet"/>
     {% endblock foundation_css %}  
+
+    {# Foundation Icons CSS #}
+    {% block foundation_icons %}
+    <link href="{% static "foundation/css/foundation-icons.css" %}" rel="stylesheet"/>
+    {% endblock %}
     
     {# Custom CSS #}
     {% block css %}{% endblock css %}

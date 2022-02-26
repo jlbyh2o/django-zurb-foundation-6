@@ -11,3 +11,7 @@ Usage
 - Add `foundation` to your `INSTALLED_APPS`.
 - If you want to use the provided base template, extend from `foundation/base.html`. If you want to write one from scratch, see the example template.
 - If you want to test if foundation works, include `foundation.urls` in your urls.py and visit the path. You should see the Foundation test page.
+
+Foundation icons
+================
+- If you have added `foundation.urls` to your urls.py visit `icons/` on that path to see them.
