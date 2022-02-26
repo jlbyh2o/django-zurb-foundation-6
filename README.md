@@ -1,7 +1,7 @@
 django-zurb-foundation-6 (6.7.4)
 ============================
 
-Django Zurb Foundation 6 package.
+Django Zurb Foundation 6 package for Django 4.
 
 Version of this package is equal to the version of Zurb Foundation it provides.
 

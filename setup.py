@@ -13,7 +13,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="django-zurb-foundation-6",
     version="6.7.4.2",
-    description="Django Zurb Foundation package.",
+    description="Django Zurb Foundation package for Django 4.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Jeremy Bywater",
