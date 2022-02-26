@@ -12,12 +12,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="django-zurb-foundation-6",
-    version="6.7.4.2",
+    version="6.7.4",
     description="Django Zurb Foundation package for Django 4.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Jeremy Bywater",
-    author_email="6372964+jlbyh2o@users.noreply.github.com",
+    author_email="nougats-dance0b@icloud.com",
     url="https://github.com/jlbyh2o/django-zurb-foundation-6",
     license='Unlicense',
     packages=find_packages(),
